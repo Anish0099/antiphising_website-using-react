@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000300;
+}
+
+.bg-card1 {
+  background-image: url('./assets/img1.jpg');
+  background-size: cover;
+  min-height: 300px;
+}
+
+.bg-card2 {
+  background-image: url('./assets/img2.jpg');
+  background-size: cover;
+  min-height: 300px;
+  
+}
+
+.bg-card3 {
+  background-image: url('./assets/img3.jpg');
+  background-size: cover;
+  min-height: 400px;
+}
+
+.hover-show {
+  display: none;
+}
+
+.bg-card1:hover .hover-show,
+.bg-card2:hover .hover-show,
+.bg-card3:hover .hover-show {
+  display: block;
+}
